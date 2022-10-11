@@ -1,0 +1,169 @@
+ *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0px;
+            }
+            nav{
+                background-color: yellowgreen;
+            }  
+           nav ul{
+                list-style-type: none;
+                display:inline-flex;
+                margin: 0px }
+            
+           nav a{color:red;
+              text-decoration:none;}
+           nav li{padding:0.8vh
+           }
+           nav li:hover{
+               background-color: darkgreen;
+               border-left:1px white solid;
+               border-right:1px white solid;
+               
+           }
+           nav{background-color: greenyellow}
+          header {
+              
+                header {background-image:url('fruit2/8.jpg');
+            /*   background-image:url('fruit/kiwi.png'),url('fruit/orange.webp'),url('fruit/guava.jpg');
+       
+                   background-size:5%,5%, cover; */
+                   background-repeat: no-repeat;
+                    background-position:left bottom,right top ,center;
+                 /* background-repeat:no-repeat;*/
+            width: 100%;
+            height:25vh;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            }
+            
+            header h1{color: white}
+            .menu{
+                  margin:0px;
+                  padding:0px;
+            }
+            .menu video{
+                width: 100%;
+               /*border: 3px green dotted;
+               border-radius: 50%;
+               padding:10px;
+               box-shadow: 0px 10px 5px 1px rgba(100,100,100,0.2); */   
+                   }
+                   
+                   .menu audio{
+                       width: 100%
+                   }
+            .menu ul{
+                list-style-type: none;
+                 margin:0px;
+                 padding: 0px;
+            }
+            .menu li{
+                margin-bottom:8px;
+               /* border:#29bf12 1px solid;*/
+               border-bottom:#7F00DB 1px solid;
+                /*border-radius:5px;*/
+                padding: 15px;
+                   /*background-color: #abff4f;*/
+            }
+            .menu a{ 
+                text-decoration: none;
+                color:#08bdbd;
+            }     
+            .menu li:hover{
+                background-color:#f21b3f;
+                 background-image:url('fruit/cherry.jpg');
+            background-size: 5%;
+            background-repeat: no-repeat;
+            background-position: 95%
+               /* color: white;*/
+            }
+            .menu li a:hover{
+                color:white;
+           }
+           
+           .content{}
+           .content{
+               text-align: justify;
+           }
+           .content iframe{
+               width: 100%;
+               height: 25vh;
+               border:3px green; 
+               border-radius: 5px;
+               padding:10px;
+               box-shadow: 10px 10px 5px 1px rgba(100,100,100,0.2);
+           }
+           .content #iframeyt{
+               float: left;
+               width: 33%;
+               padding: 8px;
+           }
+           .content #iframefruit{
+               float: left;
+               width: 66%;
+               padding: 8px;
+           }
+           
+           
+           
+           .onsale{}
+           .onsale img{
+               width: 95%;
+               border:3px green dotted;
+               border-radius: 50%;
+               padding:10px;
+               box-shadow: 0px 10px 5px 1px rgba(100,100,100,0.2);
+           }
+            /*cell phone*/
+            [class *='col-']{
+                width:100%;
+                float:left;
+            padding: 3vw;
+            }
+            @media only screen and (min-width:992px){
+               
+            .col-m-1{width:8.33%;}
+            .col-m-2{width:16.66%;}
+            .col-m-3{width:25.00%;}
+            .col-m-4{width:33.33%;}
+            .col-m-5{width:41.66%;}
+            .col-m-6{width:50.00%;}
+            .col-m-7{width:58.33%;}
+            .col-m-8{width:66.33%;}
+            .col-m-9{width:75.00%;}
+            .col-m-10{width:83.33%;}
+            .col-m-11{width:91.66%;}
+            .col-m-12{width:100.0%;}
+            }
+            
+            @media only screen and (min-width:1200px){
+              
+            .col-1{width:8.33%;}
+            .col-2{width:16.66%;}
+            .col-3{width:25.00%;}
+            .col-4{width:33.33%;}
+            .col-5{width:41.66%;}
+            .col-6{width:50.00%;}
+            .col-7{width:58.33%;}
+            .col-8{width:66.33%;}
+            .col-9{width:75.00%;}
+            .col-10{width:83.33%;}
+            .col-11{width:91.66%;}
+            .col-12{width:100.0%;}  
+            }
+            
+            
+            footer{position:fixed;
+                   left:0px;
+                   bottom:0px;
+                   background-color: lightcyan;
+                   color: gray;
+                   width: 100%;
+                   text-align: center;
+                   padding: 8px;
+           }
+      
+                
